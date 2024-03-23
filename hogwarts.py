@@ -1,3 +1,22 @@
+# Example file for working with loops
+employees = [
+    {'name': 'Alice', 'age': 20, 'role': 'teacher'},
+    {'name': 'Bob', 'age': 21, 'role': 'teacher'},
+    {'name': 'Carol', 'age': 22, 'role': 'teacher'},
+    {'name': 'Damien', 'age': 23, 'role': 'student'},
+    {'name': 'Elizabeth', 'age': 24, 'role': 'student'},
+    {'name': 'Katherine', 'age': 25, 'role': 'teacher'},
+    {'name': 'Jennifer', 'age': 26, 'role': 'student'},
+    {'name': 'Javi', 'age': 27, 'role': None},
+
+]
+
+for employee in employees:
+    print(employee['name'], employee['age'], employee['role'], sep='\t')
+
+
+
+# for loop with dict
 students_names = {
     'Alice': '2018059',
     'Javi': '2018007',
