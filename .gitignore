@@ -162,3 +162,4 @@ dist
 # Python Virtual Environment
 venv
 __pycache__
+.pytest_cache
